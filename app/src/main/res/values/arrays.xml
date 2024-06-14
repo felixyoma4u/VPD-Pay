@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_numbers">
+        <item>Select account</item>
+        <item>6538267166</item>
+        <item>2131238942</item>
+        <item>2783412345</item>
+        <item>2753412345</item>
+        <item>2783462345</item>
+        <item>2703412345</item>
+        <item>7862512564</item>
+    </string-array>
+</resources>

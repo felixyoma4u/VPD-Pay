@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fromAccountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From Account"
+            android:textSize="16sp"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/toAccountTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="to Account"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceListItemSecondary" />
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/amountTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amount"
+        android:textSize="16sp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/timestampTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textSize="16sp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+
+
+</LinearLayout>
